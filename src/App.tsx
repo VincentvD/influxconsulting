@@ -1,12 +1,12 @@
 import React from "react";
-import "./App.css";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>...</p>
-      </header>
+    <div className="container max-w-2xl mx-auto">
+      <div className="">
+        <h1 className="text-orange-700 text-2xl">Influx Consulting</h1>
+        <p>Freelance Software Developer</p>
+      </div>
     </div>
   );
 };
