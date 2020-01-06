@@ -2,13 +2,14 @@ import React from "react";
 
 const App: React.FC = () => {
   return (
-    <div
-      className="bg-dim full-bg-size p-8"
-      style={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1570269691511-2a0007f5fe6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80)`
-      }}
-    >
-      <div className="w-100 m-auto sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-8 rounded-lg bg-white-transparent text-center">
+    <>
+      <div
+        className="bg-dim full-bg-size"
+        style={{
+          backgroundImage: `url(https://images.unsplash.com/photo-1570269691511-2a0007f5fe6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80)`
+        }}
+      ></div>
+      <div className="w-100 my-8 m-auto sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-8 rounded-lg bg-white-transparent text-center">
         <img
           src="/profile.png"
           className="rounded-full h-24 lg:h-32 mx-auto opacity-100 m-3"
@@ -45,7 +46,7 @@ const App: React.FC = () => {
           </a>
         </p>
       </div>
-    </div>
+    </>
   );
 };
 
